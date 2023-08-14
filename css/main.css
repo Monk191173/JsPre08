@@ -1,0 +1,71 @@
+.container {
+    margin: 0 auto;
+    width: 500px;
+    border-radius: 5px;
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    background-color: rgb(245, 244, 244);
+}
+.title{
+    background-color: rgb(245, 244, 244);
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 200px;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+button {
+    width: 100%;
+    margin-left:5px;
+    border-radius: 3px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#add {
+    background-color: rgb(235, 194, 62);
+}
+
+#reset {
+    background-color: brown;
+}
+
+#censor {
+    margin: 0;
+    background-color: green;
+}
+
+textarea {
+    margin: 5px 0;
+}
+
+.listbad {
+    display: flex;
+    height: 20px;
+    margin-bottom: 10px;
+
+}
+
+.listbad p {
+    font-weight: bold;
+    height: 20px;
+    line-height: 0px;
+}
+
+.somewords {
+    color: red;
+}
+
+.addwords {
+    display: flex;
+}
+
+.inputtext {
+    display: flex;
+    flex-direction: column;
+}
